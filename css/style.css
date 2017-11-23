@@ -1,0 +1,41 @@
+@import url("bulma.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+html, body {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+  font: 1em "Raleway", sans-serif;
+}
+
+a {
+  color: #e12d32;
+}
+
+a:visited {
+  color: #e12d32 !important;
+}
+
+.minpadding {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.margintop1 {
+  margin-top: 1em;
+}
+
+.header {
+	font: 5em "Raleway", sans-serif;
+}
+
+.subheader {
+  font: 3em "Raleway", sans-serif;
+}
